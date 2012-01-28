@@ -1,0 +1,12 @@
+01-28 21:26:28 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_21 ON[*] GAME"; SQL statement:
+DROP INDEX PRIMARY_KEY_21 ON GAME [42000-149]
+01-28 21:26:28 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_8 ON[*] ORDERITEM"; SQL statement:
+DROP INDEX PRIMARY_KEY_8 ON ORDERITEM [42000-149]
+01-28 21:26:28 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_26 ON[*] SHIP"; SQL statement:
+DROP INDEX PRIMARY_KEY_26 ON SHIP [42000-149]
+01-28 21:26:28 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_2 ON[*] USER"; SQL statement:
+DROP INDEX PRIMARY_KEY_2 ON USER [42000-149]

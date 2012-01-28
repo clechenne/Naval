@@ -1,0 +1,51 @@
+#{extends 'main.html' /}
+#{set 'title'}
+	NavalWarfare - ${user}
+#{/set}
+Tour ${game.turn} - ${game.hour}:${game.min} <br><br>
+	<table class="tree-browser" cellpadding="0" cellspacing="0">
+        <thead>
+        <tr class="header">
+          <th>Name</th>
+          <th>Type</th>
+          <th>X</th>
+          <th>Y</th>
+          <th>Cap</th>
+          <th>Vit</th>
+        </tr>
+        </thead>
+        <tbody>
+	      <tr class="alt">
+            <td>${ship.name}</td>
+            <td>${ship.type}</td>
+            <td>12,5</td>
+            <td>12,5</td>
+            <td>90</td>
+            <td>20</td>
+          </tr>
+	#{else}
+		<p>No ship!</p>
+	#{/else}
+        </tbody>
+    </table>
+    <br>
+    
+    #{ifErrors}
+    <span class="error">#{error 'name' /}</span>
+    #{/ifErrors}
+
+    <div class="dsq-comment-header2">
+    #{form @Orders.add(ship.id) }   
+    <span class="order">Order for ${ship.name}</span>
+	<br/>
+    <label>Rotation</label>
+    <input type="text" class="forminput" name="rotation" value="${order.rotation}"/>
+	<br/>
+    <label>Acceleration</label>
+    <input type="text" class="forminput" name="acc" value="${order.acc}"/>
+
+	<br/>
+    <input class="mainbutton" type="submit" name="submit" value="Add order" />
+<br/>
+#{/form}
+	</div>

@@ -153,13 +153,6 @@ a.tag:hover {
 	background-color:#fff;
 }
 
-#url-textbox, .forminput {
-	font-size: 20px;
-	height:25px;
-	width:500px;
-	border:3px solid #ADCADE;
-	padding:2px;
-}
 
 /***************************************************/
 #tagbox { width:500px; min-height:25px; padding:3px 3px 0; border:3px solid #ADCADE; background-color:#fff; cursor:text;  padding:2px;}
@@ -232,4 +225,66 @@ ul#menu li a {
 
 .mainbutton {
 	margin-top:5px;
+}
+.tree-browser {
+width: 100%;
+margin: 0;
+border-radius: 3px;
+border: 1px solid #CACACA;
+border-image: initial;
+}
+.tree-browser th {
+text-align: left;
+font-weight: bold;
+padding: 6px 3px;
+color: #555;
+text-shadow: 0 1px 0 white;
+border-bottom: 1px solid #D8D8D8;
+background: linear-gradient(#FAFAFA,#EAEAEA);
+background: -moz-linear-gradient(#FAFAFA,#EAEAEA);
+background: -ms-linear-gradient(#FAFAFA,#EAEAEA);
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#FAFAFA),color-stop(100%,#EAEAEA));
+background: -webkit-linear-gradient(#FAFAFA,#EAEAEA);
+background: -o-linear-gradient(#FAFAFA,#EAEAEA);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#eaeaea')";
+background: linear-gradient(#FAFAFA,#EAEAEA);
+}
+
+.dsq-comment-header {
+background: linear-gradient(#FAFAFA,#EAEAEA);
+background: -moz-linear-gradient(#FAFAFA,#EAEAEA);
+background: -ms-linear-gradient(#FAFAFA,#EAEAEA);
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#FAFAFA),color-stop(100%,#EAEAEA));
+background: -webkit-linear-gradient(#FAFAFA,#EAEAEA);
+background: -o-linear-gradient(#FAFAFA,#EAEAEA);
+font-size: 13px;
+padding: 10px;
+border: 1px solid #CCC;
+border: 1px solid rgba(0, 0, 0, .15);
+margin: 0 0 1em;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+position: relative;
+line-height: 14px;
+border-image: initial;
+}
+
+.order {
+font-weight: 700;
+text-decoration: none;
+}
+
+.dsq-comment-header2 {
+margin: 10px 0;
+padding: 8px 8px 0;
+background: #E6F1F6;
+border: 1px solid #C5D5DD;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+border-image: initial;
 }

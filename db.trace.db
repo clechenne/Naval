@@ -1,0 +1,24 @@
+01-28 16:11:44 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE ORDER[*]
+(
+    ID BIGINT NOT NULL AUTO_INCREMENT,
+    SHIP BIGINT,
+    ROTATION INTEGER DEFAULT 0 NOT NULL,
+    PRIMARY KEY (ID)
+) "; expected "identifier"; SQL statement:
+CREATE TABLE Order
+(
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    ship BIGINT,
+    rotation INTEGER DEFAULT 0 NOT NULL,
+    PRIMARY KEY (id)
+) [42001-149]
+01-28 16:13:19 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_21 ON[*] GAME"; SQL statement:
+DROP INDEX PRIMARY_KEY_21 ON GAME [42000-149]
+01-28 16:13:19 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_26 ON[*] SHIP"; SQL statement:
+DROP INDEX PRIMARY_KEY_26 ON SHIP [42000-149]
+01-28 16:13:19 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_2 ON[*] USER"; SQL statement:
+DROP INDEX PRIMARY_KEY_2 ON USER [42000-149]

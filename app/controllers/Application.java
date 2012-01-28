@@ -20,7 +20,7 @@ public class Application extends Controller {
                 Profile.edit(joueur.id);
                 return;
             }
-            Profile.index(null);
+            Games.index();
         }
         render();
     }

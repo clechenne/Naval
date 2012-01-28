@@ -38,7 +38,7 @@ public class Profile extends Application {
 		user.modified = new Date();
 		user.update();
 
-		index(null);
+		Games.index();
 	}
 	
     static User getUser() {
