@@ -18,10 +18,10 @@ Tour ${game.turn} - ${game.hour}:${game.min} <br><br>
 	      <tr class="alt">
             <td>${ship.name}</td>
             <td>${ship.type}</td>
-            <td>12,5</td>
-            <td>12,5</td>
-            <td>90</td>
-            <td>20</td>
+            <td>${ship.x}</td>
+            <td>${ship.y}</td>
+            <td>${ship.cap}</td>
+            <td>${ship.speed} (${ship.maxSpeed})</td>
           </tr>
 	#{else}
 		<p>No ship!</p>
@@ -39,10 +39,10 @@ Tour ${game.turn} - ${game.hour}:${game.min} <br><br>
     <span class="order">Order for ${ship.name}</span>
 	<br/>
     <label>Rotation</label>
-    <input type="text" class="forminput" name="rotation" value="${order.rotation}"/>
+    <input type="text" class="forminput" name="rotation" value="${order?.rotation}"/>
 	<br/>
     <label>Acceleration</label>
-    <input type="text" class="forminput" name="acc" value="${order.acc}"/>
+    <input type="text" class="forminput" name="acc" value="${order?.acc}"/>
 
 	<br/>
     <input class="mainbutton" type="submit" name="submit" value="Add order" />

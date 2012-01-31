@@ -19,6 +19,16 @@ public class Ship extends Model {
     
 	public String type;
 	
+	public double x;
+	
+	public double y;
+	
+	public int cap;
+	
+	public int speed;
+	
+	public int maxSpeed;
+	
     static Query<Ship> all() {
         return Model.all(Ship.class);
     }

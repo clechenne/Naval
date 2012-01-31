@@ -3,6 +3,7 @@ package models;
 import java.util.Date;
 
 import siena.Id;
+import siena.Index;
 import siena.Model;
 import siena.Query;
 
@@ -14,6 +15,9 @@ public class User extends Model {
 	public String name;
 	public Date created;
     public Date modified;
+    
+    @Index("game_index")
+    public Game game;
     
     static Query<User> all() {
         return Model.all(User.class);
