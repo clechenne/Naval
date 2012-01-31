@@ -2,7 +2,8 @@
 #{set 'title'}
 	NavalWarfare - ${user}
 #{/set}
-Tour ${game.turn} - ${game.hour}:${game.min} <br><br>
+#{if ship != null }
+Tour ${game?.turn} - ${game?.hour}:${game?.min} <br><br>
 	<table class="tree-browser" cellpadding="0" cellspacing="0">
         <thead>
         <tr class="header">
@@ -23,17 +24,17 @@ Tour ${game.turn} - ${game.hour}:${game.min} <br><br>
             <td>${ship.cap}</td>
             <td>${ship.speed} (${ship.maxSpeed})</td>
           </tr>
-	#{else}
-		<p>No ship!</p>
-	#{/else}
         </tbody>
     </table>
     <br>
+    #{/if}   
     
     #{ifErrors}
     <span class="error">#{error 'name' /}</span>
     #{/ifErrors}
-
+	
+	#{if ship != null }
+    
     <div class="dsq-comment-header2">
     #{form @Orders.add(ship.id) }   
     <span class="order">Order for ${ship.name}</span>
@@ -49,3 +50,4 @@ Tour ${game.turn} - ${game.hour}:${game.min} <br><br>
 <br/>
 #{/form}
 	</div>
+	 #{/if}

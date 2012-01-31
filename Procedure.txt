@@ -1,3 +1,4 @@
 - BD : http://localhost:9000/@db
+- Modifier le fichier application.conf pour désactiver la db.
 - play war naval -o naval.war
 - E:\Dev\appengine-java-sdk-1.6.1.1\bin\appcfg update E:\Dev\play-1.2.3\naval.war
