@@ -33,6 +33,10 @@ public class Ship extends Model {
         return Model.all(Ship.class);
     }
     
+    public static List<Ship> getAlls() {
+    	return Ship.all().fetch();
+    }
+    
     public static Ship findById(Long id) {
         return all().filter("id", id).get();
     }

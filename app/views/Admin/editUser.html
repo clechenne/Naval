@@ -1,0 +1,21 @@
+#{extends 'main.html' /}
+#{set 'title'}
+	NavalWarfare - ${user}
+#{/set}
+    #{form @Admin.updateUser() }   
+	<br/>
+	
+	<fieldset>
+	<legend>Edit User</legend>
+    <label>Name</label>
+    <input type="text" name="name" value="${user?.name}"/><br/>
+    <label>Email</label>
+    <input type="text" name="email" value="${user?.email}"/><br/>
+
+    <label>Password</label>
+    <input type="password" name="password" value="${user?.password}"/><br/>
+    <input type="hidden" name="id" value="${user?.id}"/><br/>
+    <input class="mainbutton" type="submit" name="submit" value="Save" />
+    </fieldset>
+	<br/>
+	#{/form}

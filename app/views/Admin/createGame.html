@@ -1,0 +1,24 @@
+#{extends 'main.html' /}
+#{set 'title'}
+	NavalWarfare - ${user}
+#{/set}
+    #{form @Admin.addGame() }   
+    <span class="order">New game</span>
+	<br/>
+	<fieldset>
+	<legend>Edit game</legend>
+    <label>Name</label>
+    <input type="text" class="forminput" name="name" value=""/><br/>
+    <label>Turn</label>
+    <input type="text" class="forminput" name="turn" value=""/><br/>
+
+    <label>Hour</label>
+    <input type="text" class="forminput" name="hour" value=""/><br/>
+    <label>Min</label>
+    <input type="text" class="forminput" name="min" value=""/><br/>
+    
+    <input class="mainbutton" type="submit" name="submit" value="Add" />
+    </fieldset>
+	<br/>
+	#{/form}
+

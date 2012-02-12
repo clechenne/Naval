@@ -11,16 +11,14 @@ import play.mvc.Before;
 public class Games extends Application {
 	@Before
 	static void checkConnected() {
-		if (Auth.getUser() == null) {
+		if (connectedUser() == null) {
 			Application.login();
-		} else {
-			renderArgs.put("user", Auth.getEmail());
 		}
 	}
 
 	public static void index() {
 		
-		User user = getUser();
+		User user = connectedUser();
 		
 		List<Ship> ships = Ship.findByUser(user);
 		
@@ -40,8 +38,9 @@ public class Games extends Application {
 		}
 	}
 		
-    static User getUser() {
-		return User.findByEmail(Auth.getEmail());
+    static User connectedUser() {
+        String userId = session.get("logged");
+        return userId == null ? null : (User) User.findById(Long.parseLong(userId));
     }
     
 }

@@ -1,0 +1,27 @@
+#{extends 'main.html' /}
+<table width="500px" border=1>
+<tr>
+	<td width="250px" align="right">
+		<img src="/public/images/ship.jpg" style="width: 201px; height: 136px;">
+	</td>
+</tr>
+</table>
+<br/>
+<center>
+<form id="login" action="@{Application.authenticate}" method="POST" accept-charset="${_response_encoding}">
+	<p>
+		<label>Email</label>
+		<input type="text" name="email" value="${flash.email}" id="email" />
+	</p>
+	<p>
+		<label>Password</label>
+		<input type="password" name="password" value="" id="password" />
+	</p>
+	<p class="buttons">
+		<input type="submit" value="Login" id="loginButton" />
+	</p>
+</form>
+<br/>
+<p><em>NavalWarfare</em> is an easy way to play naval battle.</p>
+</center>
+

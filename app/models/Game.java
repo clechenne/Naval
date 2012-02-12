@@ -1,5 +1,7 @@
 package models;
 
+import java.util.List;
+
 import siena.Filter;
 import siena.Id;
 import siena.Model;
@@ -25,12 +27,20 @@ public class Game extends Model {
         return all().filter("id", id).get();
     }
     
+    public static List<Game> getAlls() {
+    	return Game.all().fetch();
+    }    
+
+    
     public Game() {
         super();
     }
     
-    public Game(String name) {
+    public Game(String name, int turn, int hour, int min) {
         this.name = name;
+        this.turn = turn;
+        this.hour = hour;
+        this.min = min;
     }
     
 	public String toString() {

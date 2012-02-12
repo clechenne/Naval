@@ -1,12 +1,180 @@
-01-28 21:26:28 jdbc[2]: exception
+02-07 22:03:37 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_21 ON[*] GAME"; SQL statement:
 DROP INDEX PRIMARY_KEY_21 ON GAME [42000-149]
-01-28 21:26:28 jdbc[2]: exception
+02-07 22:03:37 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_8 ON[*] ORDERITEM"; SQL statement:
 DROP INDEX PRIMARY_KEY_8 ON ORDERITEM [42000-149]
-01-28 21:26:28 jdbc[2]: exception
+02-07 22:03:37 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_26 ON[*] SHIP"; SQL statement:
 DROP INDEX PRIMARY_KEY_26 ON SHIP [42000-149]
-01-28 21:26:28 jdbc[2]: exception
+02-07 22:03:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_2 ON[*] USER"; SQL statement:
+DROP INDEX PRIMARY_KEY_2 ON USER [42000-149]
+02-07 22:04:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_21 ON[*] GAME"; SQL statement:
+DROP INDEX PRIMARY_KEY_21 ON GAME [42000-149]
+02-07 22:04:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_8 ON[*] ORDERITEM"; SQL statement:
+DROP INDEX PRIMARY_KEY_8 ON ORDERITEM [42000-149]
+02-07 22:04:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_26 ON[*] SHIP"; SQL statement:
+DROP INDEX PRIMARY_KEY_26 ON SHIP [42000-149]
+02-07 22:04:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_2 ON[*] USER"; SQL statement:
+DROP INDEX PRIMARY_KEY_2 ON USER [42000-149]
+02-07 22:14:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_21 ON[*] GAME"; SQL statement:
+DROP INDEX PRIMARY_KEY_21 ON GAME [42000-149]
+02-07 22:14:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_8 ON[*] ORDERITEM"; SQL statement:
+DROP INDEX PRIMARY_KEY_8 ON ORDERITEM [42000-149]
+02-07 22:14:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_26 ON[*] SHIP"; SQL statement:
+DROP INDEX PRIMARY_KEY_26 ON SHIP [42000-149]
+02-07 22:14:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_2 ON[*] USER"; SQL statement:
+DROP INDEX PRIMARY_KEY_2 ON USER [42000-149]
+02-08 20:45:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_21 ON[*] GAME"; SQL statement:
+DROP INDEX PRIMARY_KEY_21 ON GAME [42000-149]
+02-08 20:45:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_8 ON[*] ORDERITEM"; SQL statement:
+DROP INDEX PRIMARY_KEY_8 ON ORDERITEM [42000-149]
+02-08 20:45:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_26 ON[*] SHIP"; SQL statement:
+DROP INDEX PRIMARY_KEY_26 ON SHIP [42000-149]
+02-08 20:45:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_2 ON[*] USER"; SQL statement:
+DROP INDEX PRIMARY_KEY_2 ON USER [42000-149]
+02-08 20:46:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_21 ON[*] GAME"; SQL statement:
+DROP INDEX PRIMARY_KEY_21 ON GAME [42000-149]
+02-08 20:46:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_8 ON[*] ORDERITEM"; SQL statement:
+DROP INDEX PRIMARY_KEY_8 ON ORDERITEM [42000-149]
+02-08 20:46:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_26 ON[*] SHIP"; SQL statement:
+DROP INDEX PRIMARY_KEY_26 ON SHIP [42000-149]
+02-08 20:46:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_2 ON[*] USER"; SQL statement:
+DROP INDEX PRIMARY_KEY_2 ON USER [42000-149]
+02-08 20:49:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_21 ON[*] GAME"; SQL statement:
+DROP INDEX PRIMARY_KEY_21 ON GAME [42000-149]
+02-08 20:49:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_8 ON[*] ORDERITEM"; SQL statement:
+DROP INDEX PRIMARY_KEY_8 ON ORDERITEM [42000-149]
+02-08 20:49:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_26 ON[*] SHIP"; SQL statement:
+DROP INDEX PRIMARY_KEY_26 ON SHIP [42000-149]
+02-08 20:49:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_2 ON[*] USER"; SQL statement:
+DROP INDEX PRIMARY_KEY_2 ON USER [42000-149]
+02-08 21:13:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_21 ON[*] GAME"; SQL statement:
+DROP INDEX PRIMARY_KEY_21 ON GAME [42000-149]
+02-08 21:13:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_8 ON[*] ORDERITEM"; SQL statement:
+DROP INDEX PRIMARY_KEY_8 ON ORDERITEM [42000-149]
+02-08 21:13:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_26 ON[*] SHIP"; SQL statement:
+DROP INDEX PRIMARY_KEY_26 ON SHIP [42000-149]
+02-08 21:13:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_2 ON[*] USER"; SQL statement:
+DROP INDEX PRIMARY_KEY_2 ON USER [42000-149]
+02-08 21:41:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_21 ON[*] GAME"; SQL statement:
+DROP INDEX PRIMARY_KEY_21 ON GAME [42000-149]
+02-08 21:41:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_8 ON[*] ORDERITEM"; SQL statement:
+DROP INDEX PRIMARY_KEY_8 ON ORDERITEM [42000-149]
+02-08 21:41:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_26 ON[*] SHIP"; SQL statement:
+DROP INDEX PRIMARY_KEY_26 ON SHIP [42000-149]
+02-08 21:41:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_2 ON[*] USER"; SQL statement:
+DROP INDEX PRIMARY_KEY_2 ON USER [42000-149]
+02-12 14:10:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_21 ON[*] GAME"; SQL statement:
+DROP INDEX PRIMARY_KEY_21 ON GAME [42000-149]
+02-12 14:10:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_8 ON[*] ORDERITEM"; SQL statement:
+DROP INDEX PRIMARY_KEY_8 ON ORDERITEM [42000-149]
+02-12 14:10:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_26 ON[*] SHIP"; SQL statement:
+DROP INDEX PRIMARY_KEY_26 ON SHIP [42000-149]
+02-12 14:10:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_2 ON[*] USER"; SQL statement:
+DROP INDEX PRIMARY_KEY_2 ON USER [42000-149]
+02-12 14:18:13 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_21 ON[*] GAME"; SQL statement:
+DROP INDEX PRIMARY_KEY_21 ON GAME [42000-149]
+02-12 14:18:13 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_8 ON[*] ORDERITEM"; SQL statement:
+DROP INDEX PRIMARY_KEY_8 ON ORDERITEM [42000-149]
+02-12 14:18:13 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_26 ON[*] SHIP"; SQL statement:
+DROP INDEX PRIMARY_KEY_26 ON SHIP [42000-149]
+02-12 14:18:13 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_2 ON[*] USER"; SQL statement:
+DROP INDEX PRIMARY_KEY_2 ON USER [42000-149]
+02-12 14:19:55 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_21 ON[*] GAME"; SQL statement:
+DROP INDEX PRIMARY_KEY_21 ON GAME [42000-149]
+02-12 14:19:55 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_8 ON[*] ORDERITEM"; SQL statement:
+DROP INDEX PRIMARY_KEY_8 ON ORDERITEM [42000-149]
+02-12 14:19:55 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_26 ON[*] SHIP"; SQL statement:
+DROP INDEX PRIMARY_KEY_26 ON SHIP [42000-149]
+02-12 14:19:55 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_2 ON[*] USER"; SQL statement:
+DROP INDEX PRIMARY_KEY_2 ON USER [42000-149]
+02-12 14:21:23 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_21 ON[*] GAME"; SQL statement:
+DROP INDEX PRIMARY_KEY_21 ON GAME [42000-149]
+02-12 14:21:23 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_8 ON[*] ORDERITEM"; SQL statement:
+DROP INDEX PRIMARY_KEY_8 ON ORDERITEM [42000-149]
+02-12 14:21:23 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_26 ON[*] SHIP"; SQL statement:
+DROP INDEX PRIMARY_KEY_26 ON SHIP [42000-149]
+02-12 14:21:23 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_2 ON[*] USER"; SQL statement:
+DROP INDEX PRIMARY_KEY_2 ON USER [42000-149]
+02-12 14:46:58 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_21 ON[*] GAME"; SQL statement:
+DROP INDEX PRIMARY_KEY_21 ON GAME [42000-149]
+02-12 14:46:58 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_8 ON[*] ORDERITEM"; SQL statement:
+DROP INDEX PRIMARY_KEY_8 ON ORDERITEM [42000-149]
+02-12 14:46:58 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_26 ON[*] SHIP"; SQL statement:
+DROP INDEX PRIMARY_KEY_26 ON SHIP [42000-149]
+02-12 14:46:58 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_2 ON[*] USER"; SQL statement:
+DROP INDEX PRIMARY_KEY_2 ON USER [42000-149]
+02-12 14:48:53 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_21 ON[*] GAME"; SQL statement:
+DROP INDEX PRIMARY_KEY_21 ON GAME [42000-149]
+02-12 14:48:53 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_8 ON[*] ORDERITEM"; SQL statement:
+DROP INDEX PRIMARY_KEY_8 ON ORDERITEM [42000-149]
+02-12 14:48:53 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_26 ON[*] SHIP"; SQL statement:
+DROP INDEX PRIMARY_KEY_26 ON SHIP [42000-149]
+02-12 14:48:53 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_2 ON[*] USER"; SQL statement:
+DROP INDEX PRIMARY_KEY_2 ON USER [42000-149]
+02-12 14:54:06 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_21 ON[*] GAME"; SQL statement:
+DROP INDEX PRIMARY_KEY_21 ON GAME [42000-149]
+02-12 14:54:06 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_8 ON[*] ORDERITEM"; SQL statement:
+DROP INDEX PRIMARY_KEY_8 ON ORDERITEM [42000-149]
+02-12 14:54:06 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_26 ON[*] SHIP"; SQL statement:
+DROP INDEX PRIMARY_KEY_26 ON SHIP [42000-149]
+02-12 14:54:06 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP INDEX PRIMARY_KEY_2 ON[*] USER"; SQL statement:
 DROP INDEX PRIMARY_KEY_2 ON USER [42000-149]

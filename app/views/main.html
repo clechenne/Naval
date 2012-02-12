@@ -19,14 +19,10 @@
 						<h3><a href="/">NavalWarfare</a></h3>
 					</div>
 					<div id="headerlink">
-						#{if user}
-								${user} <span class="sep">|</span> <a href="@{Application.logout()}">Logout</a>
+						#{if connected}
+								${connected} <span class="sep">|</span> <a href="@{Application.logout()}">Logout</a>
 								<span class="sep">|</span>
 						#{/if}
-						#{else}
-							<a href="@{Application.login()}">Login</a>
-							<span class="sep">|</span>
-						#{/else}
 					</div>
 				</div>
 			</div>

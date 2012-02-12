@@ -1,0 +1,16 @@
+#{extends 'main.html' /}
+#{set 'title'}
+	NavalWarfare - ${user}
+#{/set}
+    #{form @Admin.addShip() }   
+    
+	<br/>
+	<fieldset>
+	<legend>New Ship</legend>
+    <label>Name</label>
+    <input type="text" class="forminput" name="name" value=""/><br/>
+    <label>Type</label>
+    <input type="text" class="forminput" name="type" value=""/><br/>
+    <input class="mainbutton" type="submit" name="submit" value="Add" />
+    </fieldset>
+	#{/form}

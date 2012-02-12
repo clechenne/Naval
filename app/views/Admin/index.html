@@ -1,0 +1,63 @@
+#{extends 'main.html' /}
+#{set 'title'}
+	NavalWarfare - ${user}
+#{/set}
+<br/>
+<br/>
+<h2>Games</h2>
+<table class="reference">
+  <tbody>
+  <tr>
+    <th width="78%" align="left">Description</th>
+    <th align="left">Actions</th>            
+  </tr>  
+#{list items:games, as:'game'}
+  <tr>
+  	<td>${game.name} - ${game.turn} (${game.hour}:${game.min})</td>
+  	<td><a href="@{Admin.editGame(game.id)}"">edit</a> | <a href="@{Admin.deleteGame(game.id)}"">delete</a></td>		      
+  </tr>
+#{/list}
+  </tbody>
+</table>
+<br/>
+<a href="@{Admin.createGame()}">Add Game</a>
+
+<br/>
+<hr/>
+
+<h2>Users</h2>
+<table class="reference">
+  <tbody>
+  <tr>
+    <th width="78%" align="left">Description</th>
+    <th align="left">Actions</th>            
+  </tr>
+#{list items:users, as:'user'}
+  <tr>
+  	<td>${user.name}</td>
+  	<td><a href="@{Admin.editUser(user.id)}"">edit</a> | <a href="@{Admin.deleteUser(user.id)}"">delete</a></td>		      
+  </tr>
+#{/list}
+  </tbody>
+</table>
+<br/>
+<a href="@{Admin.createUser()}">Add user</a></li>
+<hr/>
+<h2>Ships</h2>
+<table class="reference">
+  <tbody>
+  <tr>
+    <th width="78%" align="left">Description</th>
+    <th align="left">Actions</th>            
+  </tr>
+#{list items:ships, as:'ship'}
+  <tr>
+  	<td>${ship.type} ${ship.name}</td>
+  	<td><a href="@{Admin.editShip(ship.id)}"">edit</a> | <a href="@{Admin.deleteShip(ship.id)}"">delete</a></td>		      
+  </tr>
+#{/list}
+  </tbody>
+</table>
+<br/>
+<a href="@{Admin.createShip()}">Add ship</a></li>
+

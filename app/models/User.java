@@ -1,6 +1,11 @@
 package models;
 
 import java.util.Date;
+import java.util.List;
+
+import play.Play;
+import play.data.validation.Required;
+import play.libs.Codec;
 
 import siena.Id;
 import siena.Index;
@@ -16,11 +21,27 @@ public class User extends Model {
 	public Date created;
     public Date modified;
     
+    @Required
+    public String passwordHash;
+
+    
     @Index("game_index")
     public Game game;
     
+    public boolean isAdmin() {
+        return email.equals(Play.configuration.getProperty("application.adminEmail", ""));
+    }
+    
     static Query<User> all() {
         return Model.all(User.class);
+    }
+    
+    public static List<User> getAlls() {
+    	return User.all().fetch();
+    } 
+    
+    public static int count() {
+    	return User.all().count();
     }
     
     public static User findById(Long id) {
@@ -31,8 +52,14 @@ public class User extends Model {
         return all().filter("email", email).get();
     }
     
-    public User() {
-        super();
+    public User(String email, String password, String name) {
+    	this.email = email;
+        this.passwordHash = Codec.hexMD5(password);
+        this.name = name;
+    }
+    
+    public boolean checkPassword(String password) {
+        return passwordHash.equals(Codec.hexMD5(password));
     }
     
     public User(String email) {
